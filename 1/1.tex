@@ -63,7 +63,7 @@ $$\nabla_{y}\mathcal{L}=-\frac{1}{y_l}e(l)$$
 $$\nabla_{a^{L}}\mathcal{L}=\frac{\partial\mathcal{L}}{\partial{y}}*\frac{\partial y}{\partial{a^{L}}}=-(e(l)-y)$$
 
 \item Gradient of Weights between last layer and output layer
-$$\nabla_{W^{L}}\mathcal{L}=\frac{\partial\mathcal{L}}{\partial{a^{L}}}*\frac{\partial a^{L}}{\partial{W^{L}}}=-(e(l)-y)*(h^{L-1})$$
+$$\nabla_{W^{L}}\mathcal{L}=\frac{\partial\mathcal{L}}{\partial{a^{L}}}*\frac{\partial a^{L}}{\partial{W^{L}}}=-(e(l)-y)*(h^{L-1})^T$$
 
 \end{itemize}
 
